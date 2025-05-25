@@ -5,7 +5,7 @@ import google.generativeai as genai
 
 # Load API Key
 load_dotenv()
-GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
+GOOGLE_API_KEY = os.getenv("AIzaSyBkqGIHS7iY8fLt5N__OEJELyD8aMoVVOs")
 genai.configure(api_key=GOOGLE_API_KEY)
 
 # Initialize Gemini Flash
